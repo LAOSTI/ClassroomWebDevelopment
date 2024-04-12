@@ -5,45 +5,42 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='Style.css'>
+    <link rel='stylesheet' href='css/style.css'>
     <script src='main.js'></script>
-    
 </head>
 <body>
-<img class="imge" src="hotel.png">
-    <div class="formulario">
-        <p>Hotel Form</p>
-        <form>
-            <label for="lnome">Name: </label><br>
-            <input type="text" name="nome"><br>
-            <label for="lsex">Sex: </label><br>
-            <input type="text" name="sex"><br>
-            <label for="lemail">Email: </label><br>
-            <input type="text" name="email"><br>
-            <label for="ldt">Arrival Date: </label><br>
-            <input type="text" name="dt"><br>
+    <nav id="menu-h">
+        <ul id="menu-h">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="formulário.html">Formulario</a></li>
+            <li><img class="imge" src="imagens/hotel.png"></li>
+        </ul>
+    </nav>
+    <nav id="control">
+        <div id="title">
+            My Hotel
+        </div>
+        <div id="about">
+            Desfrute de uma experiência única de luxo e hospitalidade no Hotel Magnífico. Localizado em uma paisagem deslumbrante, nosso hotel é um refúgio para os viajantes mais exigentes em busca de conforto, elegância e serviço excepcional.
+        </div>
+        <div id="why">
+            Por que escolher o Hotel Magnífico:
+        </div>
+        <div id="because">
+            <p>Conforto e Sofisticação:</p> Nossos quartos e suítes são elegantemente decorados e equipados com comodidades modernas para garantir uma estadia luxuosa e relaxante.
+            
+            <br/><br/><p>Gastronomia de Excelência:</p> Delicie-se com uma culinária excepcional em nossos restaurantes premiados, que oferecem uma variedade de pratos locais e internacionais preparados por chefs talentosos.
+            
+            <br/><br/><p>Comodidades de Classe Mundial:</p> Desfrute de uma variedade de comodidades, incluindo piscinas deslumbrantes, spas relaxantes, academias bem equipadas e áreas de lazer para toda a família.
+            
+            <br/><br/><p>Localização Privilegiada:</p> Situado em um cenário deslumbrante, nosso hotel oferece fácil acesso a atrações locais, praias deslumbrantes e atividades ao ar livre.
+        </div>
+        <div id="finish">
+            Reserve sua estadia no Hotel Magnífico hoje mesmo e descubra o verdadeiro significado de luxo e elegância.
+        </div>
+    </nav>
+    <footer>
 
-            <label for="nnight">Number of nights: </label><br>
-            <select name="night">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-            </select><br>
-            <label for="nguests">Number of guests: </label><br>
-            <select name="guests">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-            </select><br>
-            <label for="lvalue">Value: SR$ 1000 </label><br>
-            <textarea rows="5" cols="30" name="text"></textarea>
-                </textarea><br>
-            <label for="lmsg">Do you want to receive promotion news? </label><br>
-            <input type="radio" name="opcao" value="s">Yes
-            <input type="radio" name="opcao" value="n">Not<br>
-        </form>
-    </div>
+    </footer>
 </body>
 </html>
